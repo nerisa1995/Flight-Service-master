@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: Tirana2021!!2021
+    url: jdbc:mysql://localhost:3306/flights
+    username: Nerisa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+welcome:
+  message: Welcome to My Code!!
+
